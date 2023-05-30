@@ -82,17 +82,18 @@ After running the above command we can see the version of downloaded EKSCTL.
 
 
 	
+<a href="https://drive.google.com/uc?export=view&id=1sQHjfDUy2U8-ZYrqvcMu7EdxQ4LpysoG"><img src="https://drive.google.com/uc?export=view&id=1sQHjfDUy2U8-ZYrqvcMu7EdxQ4LpysoG" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />	
 	
 	
 	
 
 18. Now we will apply the above created service.yml to kubernetes using the below command
 
-
+<a href="https://drive.google.com/uc?export=view&id=156zCLPOxICvGO4nh35zQDol95yS7ZPAa"><img src="https://drive.google.com/uc?export=view&id=156zCLPOxICvGO4nh35zQDol95yS7ZPAa" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
 
 19. Once the service.yaml file has been applied, we will check if the service is up or not.
 
-
+<a href="https://drive.google.com/uc?export=view&id=1CyPKZAXV58VOl6d4ZnkMTgdiVjXCriEi"><img src="https://drive.google.com/uc?export=view&id=1CyPKZAXV58VOl6d4ZnkMTgdiVjXCriEi" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
 
 
 20. We are able to access the application.
@@ -100,7 +101,7 @@ After running the above command we can see the version of downloaded EKSCTL.
 
 
 
- 
+<a href="https://drive.google.com/uc?export=view&id=1qI9rURXmWvLB8aYuWVzia3TkE35dB2PG"><img src="https://drive.google.com/uc?export=view&id=1qI9rURXmWvLB8aYuWVzia3TkE35dB2PG" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" /> 
 
 
 
