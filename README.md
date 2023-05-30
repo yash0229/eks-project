@@ -4,35 +4,35 @@ Application Details
 
 Instruction to run and maintain the Application
 
-Firstly, we will create an Amazon Linux EC2 instance manually and set up the configuration as per our need.
+1. Firstly, we will create an Amazon Linux EC2 instance manually and set up the configuration as per our need.
 
-We will Install terraform and kubernetes in the AWS by using the required installation instruction and use aws configure to connect it with AWS Account.
+2. We will Install terraform and kubernetes in the AWS by using the required installation instruction and use aws configure to connect it with AWS Account.
 
- Installed terraform in the EC2 Instance using the below command.
- “yum install -y yum-utils”
-Then we added the repo using the command “yum-config-manager --add-repo https://rpm.releases.hashicorp.com/RHEL/hashicorp.repo”
-Then install the terraform using “yum -y install terraform”.
+ 3. Installed terraform in the EC2 Instance using the below command.
+      “yum install -y yum-utils”
+       Then we added the repo using the command “yum-config-manager --add-repo https://rpm.releases.hashicorp.com/RHEL/hashicorp.repo”
+       Then install the terraform using “yum -y install terraform”.
 
-Checked if the EC2 is up-to-date or not using the command sudo yum update.
+4. Checked if the EC2 is up-to-date or not using the command sudo yum update.
 
-Now we will create a new directory in the AWS EC2 instance where we will be storing the terraform configuration file. In this folder we will create a filename “main.tf” and initialize it with the terraform code.
+5. Now we will create a new directory in the AWS EC2 instance where we will be storing the terraform configuration file. In this folder we will create a filename “main.tf” and initialize it with the terraform code.
 
-Now we have to create an AWS EKS cluster, so we will start with editing the main.tf file and add our terraform code in it. 
+6. Now we have to create an AWS EKS cluster, so we will start with editing the main.tf file and add our terraform code in it. 
 
-Now we will add the IAM roles and policies for the cluster and worker node by adding the code in the terraform file.
+7. Now we will add the IAM roles and policies for the cluster and worker node by adding the code in the terraform file.
 
-In the EKS node group we have desired size of 2 for our worker nodes and we have used t3.medium as our instance type.
+8. In the EKS node group we have desired size of 2 for our worker nodes and we have used t3.medium as our instance type.
 
-Once done, we will apply the new terraform code and wait for it to get completed. If the plan is correct, we will confirm it by typing “yes” when prompted. We will see the below output once the infra creation is completed
+9. Once done, we will apply the new terraform code and wait for it to get completed. If the plan is correct, we will confirm it by typing “yes” when prompted. We will see the below output once the infra creation is completed
 
-
-
-
-We can see the infrastructure created in the AWS as well.
+<a href="https://drive.google.com/uc?export=view&id=1Y6UVpxT1efBHKGmsgN4KEXJkMxGYWsHj"><img src="https://drive.google.com/uc?export=view&id=1Y6UVpxT1efBHKGmsgN4KEXJkMxGYWsHj" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
 
 
+10. We can see the infrastructure created in the AWS as well.
 
-<a href="https://drive.google.com/uc?export=view&id=1jqCrS6NjObk3VNSt3djjj9zN3yWvomVU"><img src="https://drive.google.com/uc?export=view&id=1jqCrS6NjObk3VNSt3djjj9zN3yWvomVU" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
+
+<a href="https://drive.google.com/uc?export=view&id=1ixB2ElyaAR_O_vdw5Oq2yDzrHCE5zJeq"><img src="https://drive.google.com/uc?export=view&id=1ixB2ElyaAR_O_vdw5Oq2yDzrHCE5zJeq" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
+
 
 
 
