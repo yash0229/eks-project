@@ -85,8 +85,7 @@ After running the above command we can see the version of downloaded EKSCTL.
 	
 
 
-<a href="https://drive.google.com/uc?export=view&id=1aPbVvCRD7-2Jd1fFjqirOnCT3-hdFSkU"><img src="https://drive.google.com/uc?export=view&id=1aPbVvCRD7-2Jd1fFjqirOnCT3-hdFSkU" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
-
+<a href="https://drive.google.com/uc?export=view&id=1WNEaywRoL8JoF4Ad0Uaua1EC2mz0TIQG"><img src="https://drive.google.com/uc?export=view&id=1WNEaywRoL8JoF4Ad0Uaua1EC2mz0TIQG" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
 
 
 	
@@ -106,8 +105,7 @@ After running the above command we can see the version of downloaded EKSCTL.
 
 	
 
-<a href="https://drive.google.com/uc?export=view&id=1NGx8JqIpVFSXbIzQ34mjOGykW_Z5riWv"><img src="https://drive.google.com/uc?export=view&id=1NGx8JqIpVFSXbIzQ34mjOGykW_Z5riWv" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
-	
+<a href="https://drive.google.com/uc?export=view&id=1nrajrpr1uwAIOrmC5LIkSO_aJi_yXQj7"><img src="https://drive.google.com/uc?export=view&id=1nrajrpr1uwAIOrmC5LIkSO_aJi_yXQj7" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />	
 	
 	
 
@@ -162,6 +160,10 @@ After running the above command we can see the version of downloaded EKSCTL.
 
 
 <a href="https://drive.google.com/uc?export=view&id=1VAitjau-bW92R5Fth48nf17JmucSYemc"><img src="https://drive.google.com/uc?export=view&id=1VAitjau-bW92R5Fth48nf17JmucSYemc" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
+
+
+
+
 
 
 
