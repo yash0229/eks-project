@@ -32,7 +32,7 @@ We can see the infrastructure created in the AWS as well.
 
 
 
-
+<a href="https://drive.google.com/uc?export=view&id=1jqCrS6NjObk3VNSt3djjj9zN3yWvomVU"><img src="https://drive.google.com/uc?export=view&id=1jqCrS6NjObk3VNSt3djjj9zN3yWvomVU" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
 
 
 
