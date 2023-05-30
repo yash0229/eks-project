@@ -83,8 +83,12 @@ After running the above command we can see the version of downloaded EKSCTL.
 
 	
 	
-<a href="https://drive.google.com/uc?export=view&id=1znLx0ptpVy3_5-bAgZM1x2B-O16eiqtZ"><img src="https://drive.google.com/uc?export=view&id=1znLx0ptpVy3_5-bAgZM1x2B-O16eiqtZ" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
-	
+
+
+<a href="https://drive.google.com/uc?export=view&id=1aPbVvCRD7-2Jd1fFjqirOnCT3-hdFSkU"><img src="https://drive.google.com/uc?export=view&id=1aPbVvCRD7-2Jd1fFjqirOnCT3-hdFSkU" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
+
+
+
 	
 	
 	
@@ -101,7 +105,8 @@ After running the above command we can see the version of downloaded EKSCTL.
 
 
 	
-<a href="https://drive.google.com/uc?export=view&id=1sQHjfDUy2U8-ZYrqvcMu7EdxQ4LpysoG"><img src="https://drive.google.com/uc?export=view&id=1sQHjfDUy2U8-ZYrqvcMu7EdxQ4LpysoG" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />	
+
+<a href="https://drive.google.com/uc?export=view&id=1NGx8JqIpVFSXbIzQ34mjOGykW_Z5riWv"><img src="https://drive.google.com/uc?export=view&id=1NGx8JqIpVFSXbIzQ34mjOGykW_Z5riWv" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
 	
 	
 	
@@ -115,12 +120,79 @@ After running the above command we can see the version of downloaded EKSCTL.
 <a href="https://drive.google.com/uc?export=view&id=1CyPKZAXV58VOl6d4ZnkMTgdiVjXCriEi"><img src="https://drive.google.com/uc?export=view&id=1CyPKZAXV58VOl6d4ZnkMTgdiVjXCriEi" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
 
 
-20. We are able to access the application.
+20. We are able to access the application through node ip now.
 
 
 
 
 <a href="https://drive.google.com/uc?export=view&id=1qI9rURXmWvLB8aYuWVzia3TkE35dB2PG"><img src="https://drive.google.com/uc?export=view&id=1qI9rURXmWvLB8aYuWVzia3TkE35dB2PG" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" /> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+21. To access the application through the service external ip, we've created ingress.
+
+
+
+
+
+
+
+
+
+
+
+<a href="https://drive.google.com/uc?export=view&id=1-q7wTNc8y6CZnM73L_Y89BMvhRzqkeao"><img src="https://drive.google.com/uc?export=view&id=1-q7wTNc8y6CZnM73L_Y89BMvhRzqkeao" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
+
+
+
+
+
+
+
+
+<a href="https://drive.google.com/uc?export=view&id=1VAitjau-bW92R5Fth48nf17JmucSYemc"><img src="https://drive.google.com/uc?export=view&id=1VAitjau-bW92R5Fth48nf17JmucSYemc" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
+
+
+
+
+
+22. After creating ingress, now we are able to access the application through external ip.
+
+
+
+
+
+
+<a href="https://drive.google.com/uc?export=view&id=1twVh3VSrzripQt4BDX8eN14uxNiY4i94"><img src="https://drive.google.com/uc?export=view&id=1twVh3VSrzripQt4BDX8eN14uxNiY4i94" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
+
+
+
+
+
+
+
+
+
+23. Created secrets.yml file for MYSQL DB credentials.
+
+
+
+
+
+
+<a href="https://drive.google.com/uc?export=view&id=1AFNzcmUAe5v6x2T_iwScgw-tHkBwZsrn"><img src="https://drive.google.com/uc?export=view&id=1AFNzcmUAe5v6x2T_iwScgw-tHkBwZsrn" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
+
 
 
 
