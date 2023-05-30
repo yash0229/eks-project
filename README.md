@@ -10,8 +10,11 @@ Instruction to run and maintain the Application
 2. We will Install terraform and kubernetes in the AWS by using the required installation instruction and use aws configure to connect it with AWS Account.
 
  3. Installed terraform in the EC2 Instance using the below command.
-      “yum install -y yum-utils”
+      
+       “yum install -y yum-utils”
+    
        Then we added the repo using the command “yum-config-manager --add-repo https://rpm.releases.hashicorp.com/RHEL/hashicorp.repo”
+       
        Then install the terraform using “yum -y install terraform”.
 
 4. Checked if the EC2 is up-to-date or not using the command sudo yum update.
