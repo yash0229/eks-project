@@ -53,8 +53,11 @@ This will update the kubernetes config to access our cluster.
 12. Now we will check if the cluster is accessible. We will see the output as per the below image.
 
 	
+	
 <a href="https://drive.google.com/uc?export=view&id=12JDDTiQv_VHepupMVgcqI8s4vt4oWHGY"><img src="https://drive.google.com/uc?export=view&id=12JDDTiQv_VHepupMVgcqI8s4vt4oWHGY" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
 
+
+	
 	
 13. We have downloaded EKSCTL for creating and managing clusters on EKS with the below commands.
 
