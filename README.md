@@ -30,24 +30,23 @@ Instruction to run and maintain the Application
 
 10. We can see the infrastructure created in the AWS as well.
 
-
 <a href="https://drive.google.com/uc?export=view&id=1ixB2ElyaAR_O_vdw5Oq2yDzrHCE5zJeq"><img src="https://drive.google.com/uc?export=view&id=1ixB2ElyaAR_O_vdw5Oq2yDzrHCE5zJeq" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
 
+<a href="https://drive.google.com/uc?export=view&id=1XLaRVjDulekXefWULnQIbbpEgRPX2Xjo"><img src="https://drive.google.com/uc?export=view&id=1XLaRVjDulekXefWULnQIbbpEgRPX2Xjo" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
 
+<a href="https://drive.google.com/uc?export=view&id=1IaIO2LBegA4HxDn361lKGi1AH4lKZO02"><img src="https://drive.google.com/uc?export=view&id=1IaIO2LBegA4HxDn361lKGi1AH4lKZO02" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
 
+11. Once the infrastructure is up, we will configure the newly created cluster by running the below command. 
 
-
-Once the infrastructure is up, we will configure the newly created cluster by running the below command. 
-
-
+<a href="https://drive.google.com/uc?export=view&id=1Z9bcIusONRD-fUT0-skKmcaJd2MbAtid"><img src="https://drive.google.com/uc?export=view&id=1Z9bcIusONRD-fUT0-skKmcaJd2MbAtid" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
 
 This will update the kubernetes config to access our cluster.
 
-Now we will check if the cluster is accessible. We will see the output as per the below image.
+12. Now we will check if the cluster is accessible. We will see the output as per the below image.
 
+<a href="https://drive.google.com/uc?export=view&id=12JDDTiQv_VHepupMVgcqI8s4vt4oWHGY"><img src="https://drive.google.com/uc?export=view&id=12JDDTiQv_VHepupMVgcqI8s4vt4oWHGY" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
 
-
-We have downloaded EKSCTL for creating and managing clusters on EKS with the below commands.
+13. We have downloaded EKSCTL for creating and managing clusters on EKS with the below commands.
 
  curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(uname -s)_amd64.tar.gz" | tar xz -C /tmp
  mv /tmp/eksctl /usr/local/bin
@@ -56,33 +55,34 @@ We have downloaded EKSCTL for creating and managing clusters on EKS with the bel
 	
 After running the above command we can see the version of downloaded EKSCTL.
 
+<a href="https://drive.google.com/uc?export=view&id=1lduAAk4zIxCfVFw6uS_-1b8-o7E3SGab"><img src="https://drive.google.com/uc?export=view&id=1lduAAk4zIxCfVFw6uS_-1b8-o7E3SGab" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
 
-
-Now we will create deployment configuration in the yaml format with the file name as deploy.yml for the Kubernetes with the name swordhealth-deployment using a docker image.
-
-
-
-Now we will apply the above created deploy.yml to kubernetes using the below command 
+14. Now we will create deployment configuration in the yaml format with the file name as deploy.yml for the Kubernetes with the name swordhealth-deployment using a docker image.
 
 
 
-Once everything has been set up correctly we will access the pods and we will get to see the details of the pods as below.
+15. Now we will apply the above created deploy.yml to kubernetes using the below command 
 
 
 
-Once the pod is ready, we need to expose the application and for that we need the service resource. A Service provides a stable network endpoint (IP address and port) to access your application within the Kubernetes cluster.
+16. Once everything has been set up correctly we will access the pods and we will get to see the details of the pods as below.
 
 
 
-Now we will apply the above created service.yml to kubernetes using the below command
+17. Once the pod is ready, we need to expose the application and for that we need the service resource. A Service provides a stable network endpoint (IP address and port) to access your application within the Kubernetes cluster.
 
 
 
-Once the service.yaml file has been applied, we will check if the service is up or not.
+18. Now we will apply the above created service.yml to kubernetes using the below command
 
 
 
-We are able to access the application.
+19. Once the service.yaml file has been applied, we will check if the service is up or not.
+
+
+
+
+20. We are able to access the application.
 
 
 
