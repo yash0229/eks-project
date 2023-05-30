@@ -198,3 +198,23 @@ After running the above command we can see the version of downloaded EKSCTL.
 
 
 
+
+24. Created a MYSQL DB pod deployment and configured it to connect with application pod with a service and secret file.
+
+
+
+<a href="https://drive.google.com/uc?export=view&id=16yfZOiGb9AdERCdwWPQj1IGg3MvqoD0j"><img src="https://drive.google.com/uc?export=view&id=16yfZOiGb9AdERCdwWPQj1IGg3MvqoD0j" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
+
+
+
+25. Tested the connection with the application pod by logging into the application pod and getting the creds from mysql pod.
+
+
+
+
+<a href="https://drive.google.com/uc?export=view&id=1DfGvhBsBoCM1h12BtBCD2DlNnsME1ygt"><img src="https://drive.google.com/uc?export=view&id=1DfGvhBsBoCM1h12BtBCD2DlNnsME1ygt" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
+
+
+
+
+
