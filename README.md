@@ -62,6 +62,8 @@ After running the above command we can see the version of downloaded EKSCTL.
 
 14. Now we will create deployment configuration in the yaml format with the file name as deploy.yml for the Kubernetes with the name swordhealth-deployment using a docker image.
 
+	
+	
 <a href="https://drive.google.com/uc?export=view&id=1znLx0ptpVy3_5-bAgZM1x2B-O16eiqtZ"><img src="https://drive.google.com/uc?export=view&id=1znLx0ptpVy3_5-bAgZM1x2B-O16eiqtZ" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
 	
 	
@@ -74,7 +76,7 @@ After running the above command we can see the version of downloaded EKSCTL.
 
 16. Once everything has been set up correctly we will access the pods and we will get to see the details of the pods as below.
 
-
+<a href="https://drive.google.com/uc?export=view&id=1Dmse-oRf5b2RSUesOnq2uQ6z_C8xhGXp"><img src="https://drive.google.com/uc?export=view&id=1Dmse-oRf5b2RSUesOnq2uQ6z_C8xhGXp" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
 
 17. Once the pod is ready, we need to expose the application and for that we need the service resource. A Service provides a stable network endpoint (IP address and port) to access your application within the Kubernetes cluster.
 
