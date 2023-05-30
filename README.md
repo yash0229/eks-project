@@ -29,16 +29,22 @@ Instruction to run and maintain the Application
 
 9. Once done, we will apply the new terraform code and wait for it to get completed. If the plan is correct, we will confirm it by typing “yes” when prompted. We will see the below output once the infra creation is completed
 
+
+
 <a href="https://drive.google.com/uc?export=view&id=1Y6UVpxT1efBHKGmsgN4KEXJkMxGYWsHj"><img src="https://drive.google.com/uc?export=view&id=1Y6UVpxT1efBHKGmsgN4KEXJkMxGYWsHj" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
+
 
 
 10. We can see the infrastructure created in the AWS as well.
 
+
 	
 <a href="https://drive.google.com/uc?export=view&id=1ixB2ElyaAR_O_vdw5Oq2yDzrHCE5zJeq"><img src="https://drive.google.com/uc?export=view&id=1ixB2ElyaAR_O_vdw5Oq2yDzrHCE5zJeq" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
 
+
 	
 <a href="https://drive.google.com/uc?export=view&id=1XLaRVjDulekXefWULnQIbbpEgRPX2Xjo"><img src="https://drive.google.com/uc?export=view&id=1XLaRVjDulekXefWULnQIbbpEgRPX2Xjo" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
+
 
 	
 <a href="https://drive.google.com/uc?export=view&id=1IaIO2LBegA4HxDn361lKGi1AH4lKZO02"><img src="https://drive.google.com/uc?export=view&id=1IaIO2LBegA4HxDn361lKGi1AH4lKZO02" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
