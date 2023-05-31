@@ -77,7 +77,11 @@ This will update the kubernetes config to access our cluster.
 	
 After running the above command we can see the version of downloaded EKSCTL.
 
+
+
 <a href="https://drive.google.com/uc?export=view&id=1lduAAk4zIxCfVFw6uS_-1b8-o7E3SGab"><img src="https://drive.google.com/uc?export=view&id=1lduAAk4zIxCfVFw6uS_-1b8-o7E3SGab" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
+
+
 
 14. Now we will create deployment configuration in the yaml format with the file name as deploy.yml for the Kubernetes with the name swordhealth-deployment using a docker image.
 
@@ -94,11 +98,19 @@ After running the above command we can see the version of downloaded EKSCTL.
 
 15. Now we will apply the above created deploy.yml to kubernetes using the below command 
 
+
+
 <a href="https://drive.google.com/uc?export=view&id=1EADL8DSBheG3uFl72CnimpEJ0yOBMre-"><img src="https://drive.google.com/uc?export=view&id=1EADL8DSBheG3uFl72CnimpEJ0yOBMre-" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
+
+
 
 16. Once everything has been set up correctly we will access the pods and we will get to see the details of the pods as below.
 
+
+
 <a href="https://drive.google.com/uc?export=view&id=1Dmse-oRf5b2RSUesOnq2uQ6z_C8xhGXp"><img src="https://drive.google.com/uc?export=view&id=1Dmse-oRf5b2RSUesOnq2uQ6z_C8xhGXp" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
+
+
 
 17. Once the pod is ready, we need to expose the application and for that we need the service resource. A Service provides a stable network endpoint (IP address and port) to access your application within the Kubernetes cluster.
 
@@ -111,14 +123,26 @@ After running the above command we can see the version of downloaded EKSCTL.
 
 18. Now we will apply the above created service.yml to kubernetes using the below command
 
+
+
 <a href="https://drive.google.com/uc?export=view&id=156zCLPOxICvGO4nh35zQDol95yS7ZPAa"><img src="https://drive.google.com/uc?export=view&id=156zCLPOxICvGO4nh35zQDol95yS7ZPAa" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
 
+
+
 19. Once the service.yaml file has been applied, we will check if the service is up or not.
+
+
 
 <a href="https://drive.google.com/uc?export=view&id=1CyPKZAXV58VOl6d4ZnkMTgdiVjXCriEi"><img src="https://drive.google.com/uc?export=view&id=1CyPKZAXV58VOl6d4ZnkMTgdiVjXCriEi" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
 
 
 20. We are able to access the application through node ip now.
+
+
+
+
+
+
 
 
 
@@ -207,12 +231,48 @@ After running the above command we can see the version of downloaded EKSCTL.
 
 
 
-25. Tested the connection with the application pod by logging into the application pod and getting the creds from mysql pod.
+25. Tested the connection with the database pod by logging into the application pod and getting the creds from mysql pod.
+
 
 
 
 
 <a href="https://drive.google.com/uc?export=view&id=1DfGvhBsBoCM1h12BtBCD2DlNnsME1ygt"><img src="https://drive.google.com/uc?export=view&id=1DfGvhBsBoCM1h12BtBCD2DlNnsME1ygt" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
+
+
+
+
+
+
+26. Created two S3 buckets.
+
+
+
+
+<a href="https://drive.google.com/uc?export=view&id=1KRIKOP-1NzO0-WUf8AWc0gc1FtZr_8qy"><img src="https://drive.google.com/uc?export=view&id=1KRIKOP-1NzO0-WUf8AWc0gc1FtZr_8qy" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
+
+
+
+
+
+
+27. Created two policies for application to access two S3 buckets. One bucket has been attached with read only policy and the other bucket has read & write permissions.
+   Below are the screenshot for the two attached policies.
+
+
+
+
+
+<a href="https://drive.google.com/uc?export=view&id=1c12HIACsOHsxQV9RxqRLiSIpFhTc88G-"><img src="https://drive.google.com/uc?export=view&id=1c12HIACsOHsxQV9RxqRLiSIpFhTc88G-" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
+
+
+
+
+
+
+
+<a href="https://drive.google.com/uc?export=view&id=1suqlfkwO2ZL13ubO33J4slPywN3mXPjw"><img src="https://drive.google.com/uc?export=view&id=1suqlfkwO2ZL13ubO33J4slPywN3mXPjw" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
+
 
 
 
